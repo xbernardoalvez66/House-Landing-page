@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    letter-spacing: .5;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*....Header aria..... */
+
+.hedar{
+    background: rgb(139, 116, 116);
+    height: 140px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;   
+
+}
+
+.logo{
+    background: #444;
+    padding: .5 1rem;
+}
+
+.logo h2{
+    font-size: 2.7rem;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.logo p{
+    color: slategray;
+    font-size: 1rem;
+    margin-top: -1rem;
+    letter-spacing: 2px;
+}
+
+.button-aria{
+    display: flex;
+    justify-content: right;
+    gap: .5rem;
+}
+
+.button-aria button{
+    padding: .3rem .7rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #444;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.button-aria button:hover{
+    background: #222;
+}
+
+.header-right input{
+    margin-top: 2rem;
+    width: 20rem;
+    padding: .3rem;
+    outline: none;
+    border: none;
+}
+
+/*....Nav bar..... */
+
+.nav-bar{
+    width: 100%;
+    background: #444;
+    height: 80px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-container a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: 4s ease;
+    text-transform: uppercase;
+}
+
+.nav-container a:hover{
+    background: rgb(214, 112, 94);
+}
+
+.active{
+    background: rgb(214, 112, 94);
+}
+
+/*....Home..... */
+
+.home{
+    background: url('img/1.jpg');
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-text-box{
+    background: rgba(68, 68, 68, 0.697);
+    width: 20rem;
+    padding: 1rem;
+    position: absolute;
+    top: 65%;
+    color: wheat;
+} 
+
+.home-text-box h3{
+    margin-top: .5rem 0;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+
+.home-text-box h5{
+    font-size: 1rem;
+    color: white;
+}
+
+.home-text-box p{
+    font-size: .8rem;
+    margin: .5rem 0;
+    color: white;
+}
+
+
+.home-text-box button{
+    padding: .3rem 1rem;
+    font-size: .9rem;
+    border: none;
+    outline: none;
+    background: rgb(214, 112, 94);
+    color: white;
+    transition: .4s ease;
+}
+
+.home-text-box button:hover{
+    background: #222;
+}
+
+/*....Apartment..... */
+
+.apartment{
+    background: rgba(255, 238, 208, 0.552);
+    padding: 2rem 0;
+}
+
+.apartment-container h2{
+    font-size: 2px 5rem;
+    border-bottom: 1px solid #444;
+    color: #444;
+    margin: 2rem 0;
+}
+
+.apartment-slider{
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+}
+
+.apartament-box h4{
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: .5rem;
+}
+
+.apartament-box img{
+    height: 25rem;
+    width: 22rem;
+    border-radius: .2rem;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: .5rem;
+}
+
+.apartment-slider::-webkit-scrollbar{
+    height: .4rem;
+    background: white;
+}
+
+.apartment-slider::-webkit-scrollbar-thumb{
+    background: #444;
+}
+
+.apartament-box .button-aria{
+    border: 1px solid #444;
+    margin-top: -1rem;
+    padding: 1rem 0;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.187);
+}
+
+.apartament-box .button-aria p{
+    font-size: .7rem;
+    color: slategray;
+    width: 60%;
+}
+
+.apartament-box{
+    margin-bottom: .5rem;
+}
